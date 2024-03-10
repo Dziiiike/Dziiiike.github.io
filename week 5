@@ -1,0 +1,52 @@
+
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Create Student list with CSS3</title>
+<style type="text/css">
+.StudentDetails {display: none;}
+.Student img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.StudentName {font-weight: bold;}
+.StudentCode {font-style: italic;}
+.StudentCode:before {content: " - ";}
+.Student {
+    text-align: center;
+    width: 150px;
+    margin: 10px 20px;
+    float: left;
+    cursor: pointer;
+}
+.Prod:hover .StudentDetails {display: block;}
+</style>
+</head>
+<body>
+    <div>
+        <div class="Student">
+            <img src="https://vn.lovepik.com/image-401807387/junior-high-school-student-image.html
+            <div class="StudentDetails">
+                <span class="StudentName">Nam</span>
+                <span class="StudentCode">1.5$</span>
+            </div>
+        </div>
+        <div class="Student">
+            <img src="https://vi.pngtree.com/so/h%E1%BB%8Dc-sinh
+            <div class="StudentDetails">
+                <span class="StudentName">Huong</span>
+                <span class="StudentCode">2.8$</span>
+            </div>
+        </div>
+        <div class="Product">
+            <img src="https://www.allthatgrows.in/cdn/shop/products/Daisy_Double_Mixed_2946x.jpg?v=1509622766" />
+            <div class="ProductDetails">
+                <span class="ProductName">Daisy</span>
+                <span class="ProductPrice">1.8$</span>
+            </div>
+        </div>
+    </div>
+</body>
